@@ -32,7 +32,7 @@ int main() {
   for (i = 0; i < row; ++i)
     for (j = 0; j < col; ++j) {
       printf("%d   ", sum[i][j]);
-      if (j == col - 1) {
+      if (j == col - 1) { 
         printf("\n\n");
       }
     }
